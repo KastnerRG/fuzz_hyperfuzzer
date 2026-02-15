@@ -1,4 +1,5 @@
 fuzztest/Y
+fuzztest/*rtl*
 fuzztest/aes_test_ecc_safe
 fuzztest/aes_test_ecc_unsafe
 fuzztest/all_hyperfuzzer*
