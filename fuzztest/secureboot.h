@@ -103,7 +103,7 @@ class Voc8051_Simulator {
     if (inf->type == VarInfo::PROPOSITION) {
       traces[t]->updatePropValue(inf->traceIndex, time, value != 0);
     } else {
-      traces[t]->updateTermValue(inf->traceIndex, time, value);
+      traces[t]->updateTermValue(inf->traceIndex, time, static_cast<uint32_t>(value));
     }
   }
 

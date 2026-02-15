@@ -1,3 +1,9 @@
+fuzztest/Y
+fuzztest/aes_test_ecc_safe
+fuzztest/aes_test_ecc_unsafe
+fuzztest/all_hyperfuzzer*
+fuzztest/example*
+
 # git ls-files --others --exclude-from=.git/info/exclude
 # Lines that start with '#' are comments.
 # For a project mostly in C, the following would be a good set of
